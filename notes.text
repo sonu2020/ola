@@ -1,0 +1,319 @@
+emulator open
+
+1)open terminal
+
+ cd /usr/local/android-studio/bin
+ cd android-studio/bin/
+ sudo chmod -R 777 /dev/kvm
+  ./studio.sh
+ 
+
+
+ startup
+open athoer terminal
+
+cd
+cd Desktop/sonu_insta/
+react-native start
+ 
+
+marginVertical=======space equal
+
+
+
+
+under words]]
+
+ position: "absolute", bottom: 10
+
+
+
+oru card/box ndakaaann======
+
+<View
+          style={{ flex: 1, backgroundColor: 'red', margin: 10, height: 120 }}
+        />
+
+
+  
+  borderBottomWidth: 1,    width: "80%",
+    height: 60...>>>underline
+
+
+
+
+
+
+
+box---------------borderWidth      eg--- 
+
+  <View
+          style={{
+            flex: 1,
+            height: 70,
+            borderWidth: 2,
+            borderColor: "green",
+            margin: 10
+
+
+
+
+
+
+
+    Image
+          resizeMode={"contain"}
+
+          npm i react-native-vector-icons --save
+          react-native link react-native-vector-icon
+          react-native run-android
+
+
+
+https://oblador.github.io/react-native-vector-icons/
+
+import Entypo from "react-native-vector-icons/Entypo";
+          <Entypo
+              name="lock"
+              color="black"
+              size={25}
+            />
+
+
+
+
+
+
+
+
+
+
+adiyil varunna buttons 5
+==================
+
+
+
+
+       <View
+          style={{
+            width: '100%',
+            height: 60,
+            flexDirection: 'row',       <View
+          style={{
+            width: '100%',
+            height: 60,
+            flexDirection: 'row',
+            backgroundColor: '#191970'
+          }}
+        >
+          <View
+            style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+          >
+            <Entypo name="light-bulb" color="white" size={25} />
+            <Text>bulb</Text>
+          </View>
+          <View
+            style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+          >
+            <AntDesign name="search1" color="white" size={25} />
+            <Text>seacrh</Text>
+          </View>
+          <View
+            style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+          >
+            <AntDesign name="upload" color="white" size={25} />
+            <Text>upload</Text>
+          </View>
+          <View
+            style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+          >
+            <Ionicons name="ios-notifications" color="white" size={25} />
+            <Text>upload</Text>
+          </View>
+          <View
+            style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
+          >
+            <MaterialCommunityIcons name="account" color="white" size={25} />
+            <Text>profile</Text>
+          </View>
+     
+ 
+
+
+
+
+
+
+
+
+
+
+input box with icon
+
+
+             <View style={{ flexDirection: "row" }}>
+          <View
+            style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+          >
+            <Entypo
+              name="lock"
+              color="white"
+              size={25}
+              style={{ paddingLeft: 20 }}
+            />
+          </View>
+          <View style={{ flex: 7 }}>
+            <TextInput
+              style={styles.BBB}
+              placeholder="PASSWORD"
+              secureTextEntry
+            />
+          </View>
+        </View>
+
+
+       
+
+    BBBBBoooxxxxxxxxsssssssshhhhhhhhaaaaaaaddddooooooooowwwwwww
+
+        elevation: 15,
+              shadowColor: 'black',
+              shadowOpacity: 0.2,
+              shadowRadius: 2,
+              shadowOffset: {
+                height: 1,
+                width: 0
+              }
+
+
+===================Searchbuoton
+
+<View
+            style={{
+              flex: 6,
+              marginTop: 20,
+              height: 50,
+              width: 100,
+              backgroundColor: 'grey',
+              borderRadius: 10
+            }}
+          >
+            <TextInput style={styles.D} placeholder={'Search'} />
+          </View>
+
+
+
+circle empolo+++++++++++++++++++++++++
+
+
+ <View
+          style={{
+            width: 65,
+            height: 65,
+            backgroundColor: 'red',
+            borderRadius: 50,
+            position: 'absolute',
+            bottom: 15,
+            right: 15,
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          <AntDesign name="arrowright" color="white" size={25} />
+        </View>
+
+
+
+
+
+        ssswitchhhhhh
+        ================
+
+ constructor(props) {
+    super(props);
+    this.state = {
+      sw: false
+    };
+  }
+====================
+         <Switch
+              onValueChange={() => this.setState({ sw: !this.state.sw })}
+              value={this.state.sw}
+            />
+=================================================================
+
+Touchablebutton==
+][]][[[[[[[[]]]]]]]]][[[[]]]]
+
+           <TouchableOpacity style={styles.R}>
+              <Text>INSTAL</Text>
+            </TouchableOpacity>
+
+
+              R: {
+    width: 85,
+    height: 35,
+    backgroundColor: 'green',
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+
+  ][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+
+
+  import ScreenFour from './src/ScreenFour';
+  import { Router, Stack, Scene } from 'react-native-router-flux';
+                       
+
+
+    <Router>
+                            <Scene
+              key="ScreenFour"
+              component={ScreenFour}
+              title="ScreenFour"
+              hideNavBar={true}
+            />
+          </Stack>
+        </Router>
+
+
+
+                       =================App .js importtttttt
+
+ import { Actions } from 'react-native-router-flux';========importtttttt
+
+
+  back buton clicker==\\\  
+   <TouchableOpacity
+            onPress={() => Actions.pop()}
+
+
+
+
+
+
+
+            forward buton click===''
+            ============
+                   <TouchableOpacity
+            onPress={() => Actions.ScreenTwo()}
+
+
+            style={{ flex: 2, justifyContent: 'center', alignItems: 'center' }}
+          >
+            <MaterialCommunityIcons name="pencil" color="white" size={25} />
+
+
+          </TouchableOpacity>
+
+
+
+          
+
+            initial --------------->to come first
+
+
+
+            sonukk816@gmail.come  pass:  sonu123#@!
