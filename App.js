@@ -11,15 +11,15 @@ import {
 } from 'react-native';
 
 import { Router, Stack, Scene } from 'react-native-router-flux';
-import B1 from './src/B1';
-import B2 from './src/B2';
-import B3 from './src/B3';
-import B4 from './src/B4';
-import B5 from './src/B5';
-import B6 from './src/B6';
-import B7 from './src/B7';
-import B8 from './src/B8';
-import B9 from './src/B9';
+import C1 from './src/C1';
+import C2 from './src/C2';
+import C3 from './src/C3';
+import C4 from './src/C4';
+import C5 from './src/C5';
+import C6 from './src/C6';
+import C7 from './src/C7';
+import C8 from './src/C8';
+import C9 from './src/C9';
 
 export default class App extends Component {
   render() {
@@ -31,15 +31,15 @@ export default class App extends Component {
       >
         <Router>
           <Stack>
-            <Scene key="B1" component={B1} title="B1" hideNavBar={true} />
-            <Scene key="B2" component={B2} title="B2" hideNavBar={true} />
-            <Scene key="B3" component={B3} title="B3" hideNavBar={true} />
-            <Scene key="B4" component={B4} title="B4" hideNavBar={true} />
-            <Scene key="B5" component={B5} title="B5" hideNavBar={true} />
-            <Scene key="B6" component={B6} title="B6" hideNavBar={true} />
-            <Scene key="B7" component={B7} title="B7" hideNavBar={true} />
-            <Scene key="B8" component={B8} title="B8" hideNavBar={true} />
-            <Scene key="B9" component={B9} title="B9" hideNavBar={true} />
+            <Scene key="C1" component={C1} title="C1" hideNavBar={true} />
+            <Scene key="C2" component={C2} title="C2" hideNavBar={true} />
+            <Scene key="C3" component={C3} title="C3" hideNavBar={true} />
+            <Scene key="C4" component={C4} title="C4" hideNavBar={true} />
+            <Scene key="C5" component={C5} title="C5" hideNavBar={true} />
+            <Scene key="C6" component={C6} title="C6" hideNavBar={true} />
+            <Scene key="C7" component={C7} title="C7" hideNavBar={true} />
+            <Scene key="C8" component={C8} title="C8" hideNavBar={true} />
+            <Scene key="C9" component={C9} title="C9" hideNavBar={true} />
           </Stack>
         </Router>
       </View>
