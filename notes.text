@@ -98,11 +98,7 @@ adiyil varunna buttons 5
           style={{
             width: '100%',
             height: 60,
-            flexDirection: 'row',       <View
-          style={{
-            width: '100%',
-            height: 60,
-            flexDirection: 'row',
+            flexDirection: 'row',      
             backgroundColor: '#191970'
           }}
         >
@@ -332,3 +328,7 @@ git remote -v
 
 
 git add .
+
+
+
+========================
